@@ -54,7 +54,7 @@ public class IcastIdivCastToDoubleTest {
 		int x = 2;
 		int y = 5;
 		double value1 = (double) x / y;
-		logger.debug("value1: {}", value1);
+		logger.debug("(double) 2 / 5 = {}", value1);
 	}
 
 	@Test
@@ -62,7 +62,7 @@ public class IcastIdivCastToDoubleTest {
 		int x = 2;
 		int y = 5;
 		double value1 = x / (double) y;
-		logger.debug("value1: {}", value1);
+		logger.debug("2 / (double) 5 = {}", value1);
 	}
 
 	@Test
@@ -70,7 +70,7 @@ public class IcastIdivCastToDoubleTest {
 		int x = 2;
 		int y = 5;
 		double value1 = x / y;
-		logger.debug("value1: {}", value1);
+		logger.debug("2 / 5 = {}", value1);
 	}
 
 }
